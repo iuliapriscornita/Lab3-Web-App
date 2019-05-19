@@ -27,7 +27,7 @@ namespace Lab3_Web_App.Models
             public int Rating { get; set; }
             [Range(1, 10)]
             public bool Watched { get; set; }
-          //  public List<Comment> Comments { get; set; }
+            public List<Comment> Comments { get; set; }
         }
 
     }

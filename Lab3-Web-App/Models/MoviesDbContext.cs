@@ -16,7 +16,7 @@ namespace Lab3_Web_App.Models
             // DbSet = Repository
 
             public DbSet<Movie> Movies { get; set; }
-          //  public DbSet<Comment> Coments { get; set; }
+            public DbSet<Comment> Coments { get; set; }
 
 
 
